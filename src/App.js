@@ -11,6 +11,9 @@ import chillhop from "./data";
 import { playAudio } from "./util";
 
 function App() {
+
+  //React title
+  document.title = 'MusicPlayer'
   //Ref
   const audioRef = useRef(null);
 
